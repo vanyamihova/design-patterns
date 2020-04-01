@@ -1,6 +1,8 @@
 package chainofresponsibilities;
 
 /**
+ * The interface of the handler
+ *
  * @author Vanya Mihova <vanya.mihova89@gmail.com>
  * @since 01.04.2020
  */

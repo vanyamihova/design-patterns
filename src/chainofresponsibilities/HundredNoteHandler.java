@@ -6,16 +6,9 @@ package chainofresponsibilities;
  * @author Vanya Mihova <vanya.mihova89@gmail.com>
  * @since 01.04.2020
  */
-final class HundredNoteHandler implements NoteHandler {
+final class HundredNoteHandler extends BaseNoteHandler {
 
     private static final int NOTE_AMOUNT = 100;
-
-    private NoteHandler nextNoteHandler;
-
-    @Override
-    public void setNextNoteHandler(NoteHandler noteHandler) {
-        this.nextNoteHandler = noteHandler;
-    }
 
     @Override
     public void withdraw(int amount) {

@@ -23,7 +23,7 @@ public class Atm {
         fiftyNoteHandler.setNextNoteHandler(twentyNoteHandler);
         twentyNoteHandler.setNextNoteHandler(tenNoteHandler);
 
-        hundredNoteHandler.withdraw(150);
+        hundredNoteHandler.withdraw(180);
     }
 
 }
